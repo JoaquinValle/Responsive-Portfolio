@@ -127,7 +127,7 @@ textarea {
 
 .box-set {
     position: relative;
-    height: 750px;
+    height: 2700px;
     width: 550px;
 }
 
@@ -270,10 +270,6 @@ form {
             height: 480px;
         }
         .box-1 {
-        }
-
-        .box-set {
-            height: 2700px;
         }
         
         .box-2 {
