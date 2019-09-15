@@ -69,8 +69,6 @@ p {
     background-color: #ffffff;
     width: 960px;
     margin: auto;
-    margin-left: 70px;
-    margin-right: 70px;
 }
 
 body {
@@ -129,7 +127,7 @@ textarea {
 
 .box-set {
     position: relative;
-    height: 750px;
+    height: 2700px;
     width: 550px;
 }
 
@@ -193,17 +191,121 @@ form {
 @media screen and (max-width: 980px) {
     .content {
         width: 650px;
+        margin-left: 70px;
     }
-
+    .title {
+        width: 100%
+    }  
+ 
+    .bio {
+        height: 300px;
+        width: 300px;
+    }
+    nav {
+        right: 20px;
+        position: absolute
+    }
+    input {
+        width: 630px;
+    }
+    textarea {
+        width: 630px
+    }
 }
+
 
 @media screen and (max-width: 768px) {
     .content {
-        width: 570px;
+        width: 92%;
+        margin-left: 10px;
+    }
+    header {
+        margin-left: 10px
+    }
+    nav {
+        position: absolute;
+        right: 10px;
+    }
+    input {
+        width: 670px;
+    }
+    textarea {
+        width: 670px;
     }
     
 }
-
 @media screen and (max-width: 640px) {
-    
+        header {
+            position: fixed;
+            width: 100%;
+            margin-left: 0px;
+            z-index: 5;
+        }
+
+        nav {
+            margin-top: 70px;
+            margin-right: 0px;
+            background-color: #ffffff;
+            width: 100%;
+            align-content: center;
+        }
+
+        .content {
+            margin-top: 80px;
+        }
+
+        .bio {
+            margin-top: 15px;
+            width: 535px;
+            height: 535px;
+        }
+        .box {
+            position: absolute;
+            width: 580px;
+            height: 480px;
+        }
+
+        .image {
+            width: 580px;
+            height: 480px;
+        }
+        .box-1 {
+        }
+        
+        .box-2 {
+            top: 550px;
+        }
+        
+        .box-3 {
+            top: 1100px;
+        }
+        
+        .box-4 {
+            top: 1650px;
+            left: 0px;
+        }
+        
+        .box-5 {
+            top: 2200px;
+            left: 0px;
+        }
+        .image:hover {
+            width: 590px;
+            height: 490px;
+        
+        }.box:hover {
+            width: 590px;
+        }
+        #formSize {
+            width: 540px;
+        }
+        input {
+            width: 520px;
+        }
+
+        textarea {
+            width: 520px;
+        }
+
 }
+
